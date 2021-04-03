@@ -73,7 +73,8 @@ body {
 #new h2,
 #score h2,
 #general h2,
-#leg1 h1 {
+#leg1 h1,
+#points h1 {
   text-align:center;
   letter-spacing: 0.25vw;
   text-decoration: underline;
@@ -108,6 +109,21 @@ body {
 }
 #info b {
   font-size: 2.5vw;
+}
+#info a {
+  font-family: sans-serif;
+  text-decoration: inherit;
+  color: #fff;
+  background-color: green;
+  border: 0.1vw solid green;
+  padding: 0.5vw;
+  margin: 2vw;
+  border-radius: 0.5vw;
+  box-shadow: 0.5vw 0.25vw 0.5vw rgb(250, 157, 157);
+}
+#info a:hover {
+  color: green;
+  background-color: #fff;
 }
 .photo a {
   align-content: center;
@@ -185,7 +201,8 @@ div#contact {
   box-shadow: 0.5vw 0.5vw 0.5vw #07305a;
   padding: 1vw;
 }
-#leg1 {
+#leg1,
+#points {
   background: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 2vw;
@@ -286,4 +303,32 @@ div#contact {
   font-size: 1.25vw;
   color: #021a69;
   transition: 0.4s linear;
+}
+#points table {
+  margin: 1vw 5vw;
+}
+#points {
+  background: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1vw;
+  padding: 1vw;
+  box-shadow: 0.5vw 0.5vw 0.5vw  gold;
+  margin: 2.5vw;
+}
+#points td {
+  border: 0.1vw solid #021a69;
+  vertical-align: middle;
+  font-weight: lighter;
+  margin: 0.5vw;
+  box-shadow: 0.5vw 0.5vw 0.5vw #07305a;
+  padding: 1vw;
+}
+#points th {
+  font-weight: bolder;
+  padding: 0.5vw;
+  border: 0.1vw solid #021a69;
+  color: #fff;
+  background: #021a69;
+  box-shadow: 0.5vw 0.5vw 0.5vw #07305a;
+  margin: 0.5vw;
 }
