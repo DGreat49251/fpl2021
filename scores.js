@@ -12,6 +12,13 @@ function show(arrsum) {
         sel.innerHTML = arrsum[i];
     }
 }
+function place(arr,q) {
+    var el = document.querySelectorAll(q);
+    for(var i=0;i<arr.length;i++) {
+        var sel = el[i];
+        sel.innerHTML = arr[i];
+    }
+}
 var anik=[0];
 var dipak=[0];
 var tushar=[0];
@@ -34,3 +41,13 @@ var divyankSum = sum(divyank);
 var deeptaSum = sum(deepta);
 var sumarr = [anikSum, dipakSum, tusharSum, arpanSum, faizanSum, priyanshuSum, divyankSum, harshSum, kantiSum, deeptaSum];
 show(sumarr);
+place(anik,'#ad');
+place(dipak,'#dg');
+place(tushar,'#tj');
+place(arpan,'#as');
+place(faizan,'#fa');
+place(harsh,'#hrt');
+place(kanti,'#sb');
+place(priyanshu,'#pm');
+place(divyank,'#dr');
+place(deepta,'#dkd');
