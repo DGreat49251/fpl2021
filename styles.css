@@ -195,6 +195,7 @@ div#contact {
 #rank td {
   border: 0.1vw solid #021a69;
   font-weight: lighter;
+  text-align: center;
   font-size: 1.5vw;
   color:#021a69;
   margin: 0.5vw;
