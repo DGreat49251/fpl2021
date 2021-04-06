@@ -202,8 +202,7 @@ div#contact {
   box-shadow: 0.5vw 0.5vw 0.5vw #07305a;
   padding: 1vw;
 }
-#leg1,
-#points {
+#leg1 {
   background: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 2vw;
@@ -319,6 +318,7 @@ div#contact {
 #points td {
   border: 0.1vw solid #021a69;
   vertical-align: middle;
+  color:#021a69;
   font-weight: lighter;
   margin: 0.5vw;
   box-shadow: 0.5vw 0.5vw 0.5vw #07305a;
@@ -326,7 +326,6 @@ div#contact {
 }
 #points th {
   font-weight: bolder;
-  padding: 0.5vw;
   border: 0.1vw solid #021a69;
   color: #fff;
   background: #021a69;
