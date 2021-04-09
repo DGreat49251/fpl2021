@@ -9,26 +9,26 @@ function show(arrsum) {
     var el = document.getElementsByClassName("total");
     for(var i=0; i<10; i++) {
         var sel = el[i];
-        sel.innerHTML = arrsum[i];
+        sel.innerText = arrsum[i];
     }
 }
 function place(arr,q) {
     var el = document.querySelectorAll(q);
     for(var i=0;i<arr.length;i++) {
         var sel = el[i];
-        sel.innerHTML = arr[i];
+        sel.innerText = arr[i];
     }
 }
-var anik=[0];
-var dipak=[0];
-var tushar=[0];
-var faizan=[0];
-var arpan=[0];
-var harsh=[0];
-var kanti=[0];
-var priyanshu=[0];
-var divyank=[0];
-var deepta=[0];
+var anik=[5+0+6];
+var dipak=[1+0+6];
+var tushar=[15+3+7];
+var faizan=[-6+0+5];
+var arpan=[10+0+7];
+var harsh=[-8+0+5];
+var kanti=[0+3+5];
+var priyanshu=[0+3+6];
+var divyank=[-1+0+5];
+var deepta=[-3+0+5];
 var anikSum = sum(anik);
 var dipakSum = sum(dipak);
 var tusharSum = sum(tushar);
