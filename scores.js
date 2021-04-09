@@ -20,12 +20,12 @@ function place(arr,q) {
     }
 }
 var anik=[5+0+6];
-var dipak=[1+0+6];
+var dipak=[2+0+6];
 var tushar=[15+3+7];
 var faizan=[-6+0+5];
 var arpan=[10+0+7];
 var harsh=[-8+0+5];
-var kanti=[0+3+5];
+var kanti=[0+0+5];
 var priyanshu=[0+3+6];
 var divyank=[-1+0+5];
 var deepta=[-3+0+5];
