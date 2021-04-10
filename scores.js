@@ -19,16 +19,16 @@ function place(arr,q) {
         sel.innerText = arr[i];
     }
 }
-var anik=[5+0+6];
-var dipak=[2+0+6];
-var tushar=[15+3+7];
-var faizan=[-6+0+5];
-var arpan=[10+0+7];
-var harsh=[-8+0+5];
-var kanti=[0+0+5];
-var priyanshu=[0+3+6];
-var divyank=[-1+0+5];
-var deepta=[-3+0+5];
+var anik=[5+0+6,0+3+5];
+var dipak=[2+0+6,2+3+5];
+var tushar=[15+3+7,5+0+6];
+var faizan=[-6+0+5,-1+0+4];
+var arpan=[10+0+7,0+3+5];
+var harsh=[-8+0+5,15+0+7];
+var kanti=[0+0+5,-5+0+4];
+var priyanshu=[0+3+6,-8+3+4];
+var divyank=[-1+0+5,-3+0+4];
+var deepta=[-3+0+5,10+3+7];
 var anikSum = sum(anik);
 var dipakSum = sum(dipak);
 var tusharSum = sum(tushar);
