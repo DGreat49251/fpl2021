@@ -365,3 +365,14 @@ div#contact {
   vertical-align: middle;
   padding: 1vw;
 }
+#qualified {
+  background:#3498db;
+  border: 0.1vw solid #021a69;
+  vertical-align: middle;
+  text-align: center;
+  color:#021a69;
+  font-weight: lighter;
+  margin: 0.5vw;
+  box-shadow: 0.5vw 0.5vw 0.5vw #07305a;
+  padding: 1vw;
+}
