@@ -57,16 +57,16 @@ place(kanti, '#sb', 0);
 place(priyanshu, '#pm', 0);
 place(divyank, '#dr', 0);
 place(deepta, '#dkd', 0);
-var anik2 = [20, 9, 15, 11, 10];
-var dipak2 = [25, 12, 20, 22, 18];
-var tushar2 = [11, 3, 5, 10, 7];
-var arpan2 = [7, 2, 0, 6, 8];
-var kanti2 = [0, 22, 6, 16, 21];
-var divyank2 = [14, 6, 0, -14, -14];
-var deepta2 = [0, 17, 12, 10, 13];
-var harsh2 =[];
-var priyanshu2 = [];
-var faizan =[];
+var anik2 = [20, 9, 15, 11, 10]
+var dipak2 = [25, 12, 20, 22, 18]
+var tushar2 = [11, 3, 5, 10, 7]
+var arpan2 = [7, 2, 0, 6, 8]
+var kanti2 = [0, 22, 6, 16, 21]
+var divyank2 = [14, 6, 0, -14, -14]
+var deepta2 = [0, 17, 12, 10, 13]
+var harsh2 =[]
+var priyanshu2 = []
+var faizan2 =[]
 var anikSum2 = sum(anik2);
 var dipakSum2 = sum(dipak2);
 var tusharSum2 = sum(tushar2);
