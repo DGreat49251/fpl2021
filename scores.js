@@ -57,13 +57,13 @@ place(kanti, '#sb', 0);
 place(priyanshu, '#pm', 0);
 place(divyank, '#dr', 0);
 place(deepta, '#dkd', 0);
-var anik2 = [20, 9, 15, 11, 10, 3]
-var dipak2 = [25, 12, 20, 22, 18, 6]
-var tushar2 = [11, 3, 5, 10, 7, 14]
-var arpan2 = [7, 2, 0, 6, 8, 20]
-var kanti2 = [0, 22, 6, 16, 21, 6]
-var divyank2 = [14, 6, 0, -14, -14]
-var deepta2 = [0, 17, 12, 10, 13, 9]
+var anik2 = [20, 9, 15, 11, 10, 3, 13]
+var dipak2 = [25, 12, 20, 22, 18, 6, 10]
+var tushar2 = [11, 3, 5, 10, 7, 14, 4]
+var arpan2 = [7, 2, 0, 6, 8, 20, 16]
+var kanti2 = [0, 22, 6, 16, 24, 6, 24]
+var divyank2 = []
+var deepta2 = [0, 17, 12, 10, 13, 9, 5]
 var harsh2 =[]
 var priyanshu2 = []
 var faizan2 =[]
@@ -78,7 +78,7 @@ var harshSum2 = sum(harsh2);
 var kantiSum2 = sum(kanti2);
 var divyankSum2 = sum(divyank2);
 var deeptaSum2 = sum(deepta2);
-var sumarr2 = [anikSum2, dipakSum2, tusharSum2, arpanSum2, "OPTED OUT", "DISQUALIFIED", divyankSum2, "DISQUALIFIED", kantiSum2, deeptaSum2];
+var sumarr2 = [anikSum2, dipakSum2, tusharSum2, arpanSum2, "OPTED OUT", "DISQUALIFIED", "DISQUALIFIED", "DISQUALIFIED", kantiSum2, deeptaSum2];
 show(sumarr2, 10);
 place(anik2, '#ad', 28);
 place(dipak2, '#dg', 28);
