@@ -1,7 +1,10 @@
 function sum(arr) {
     var s = 0;
     for (var i = 0; i < arr.length; i++) {
-        s = s + arr[i];
+        if(typeof(arr[i]) == "number")
+            s = s + arr[i];
+        else
+            s += 0;
     }
     return s;
 }
@@ -25,6 +28,12 @@ function qual(q) {
         el[i].setAttribute('id', 'qualified');
     }
 }
+function calc(n, d) {
+    var x;
+    x = (n / d) * 100;
+    return Math.round(x);
+}
+
 var anik = [5 + 0 + 6, 0 + 3 + 5, 10 + 0 + 7, 5 + 0 + 8, 10 + 0 + 8, 5 + 0 + 7, 0 + 0 + 5, 5 + 3 + 4, -5 + 3 + 5, 2 + 3 + 6, 0 + 0 + 6, 5 + 0 + 6, 5 + 0 + 5, 10 + 0 + 5, -5 + 0 + 6, 10 + 3 + 7, 0 + 0 + 5, 0 + 0 + 5, -5 + 0 + 3, 5 + 0 + 6, -5 + 3 + 4, 0, -20, -20, 0, 0, 0, 0];
 var dipak = [2 + 0 + 6, 2 + 3 + 5, -3 + 3 + 5, 15 + 0 + 9, 0 + 3 + 7, 0 + 3 + 6, 5 + 0 + 6, -3 + 0 + 4, 0 + 3 + 5, 15 + 0 + 7, -3 + 0 + 5, 5 + 0 + 6, 0 + 0 + 4, -3 + 0 + 4, -1 + 3 + 6, 0 + 0 + 6, -1 + 0 + 5, 0 + 0 + 4, -3 + 0 + 4, -3 + 0 + 5, -1 + 0 + 4, 2 + 0 + 5, 0 + 0 + 5, 11, 4, 22, 8, 15];
 var tushar = [15 + 3 + 7, 5 + 0 + 6, -8 + 3 + 5, 10 + 0 + 8, 0 + 3 + 7, 10 + 3 + 7, -1 + 0 + 4, 2 + 0 + 4, 10 + 3 + 6, -3 + 3 + 6, 2 + 3 + 6, 10 + 0 + 7, -2 + 0 + 4, 0 + 0 + 5, 2 + 0 + 7, 5 + 3 + 6, 15 + 0 + 6, 15 + 0 + 5, 0 + 0 + 5, 0 + 0 + 6, -3 + 0 + 4, 5 + 5 + 3, -3 + 3 + 5, 4, 8, 11, 20, 12];
@@ -57,6 +66,8 @@ place(kanti, '#sb', 0);
 place(priyanshu, '#pm', 0);
 place(divyank, '#dr', 0);
 place(deepta, '#dkd', 0);
+
+
 var anik2 = [20, 9, 15, 11, 10, 3, 13, 24, 14]
 var dipak2 = [25, 12, 20, 22, 18, 6, 10, 19, 9]
 var tushar2 = [11, 3, 5, 10, 7, 14, 4, 14, 20]
@@ -90,5 +101,34 @@ place(kanti2, '#sb', 28);
 place(priyanshu2, '#pm', 28);
 place(divyank2, '#dr', 28);
 place(deepta2, '#dkd', 28);
+
+
+var sumleg1 = sum(sumarr);
+var anikLegScore = calc(anikSum, sumleg1);
+var dipakLegScore = calc(dipakSum, sumleg1);
+var tusharLegScore = calc(tusharSum, sumleg1);
+var faizanLegScore = calc(faizanSum, sumleg1);
+var arpanLegScore = calc(arpanSum, sumleg1);
+var harshLegScore = calc(harshSum, sumleg1);
+var kantiLegScore = calc(kantiSum, sumleg1);
+var priyanshuLegScore = calc(priyanshuSum, sumleg1);
+var divyankLegScore = calc(divyankSum, sumleg1);
+var deeptaLegScore = calc(deeptaSum, sumleg1);
+var leg1 = [anikLegScore, dipakLegScore, tusharLegScore, arpanLegScore, faizanLegScore, priyanshuLegScore, divyankLegScore, harshLegScore, kantiLegScore, deeptaLegScore];
+show(leg1, 20);
+
+var sumleg2 = sum(sumarr2);
+var anikLegScore2 = calc(anikSum2, sumleg2);
+var dipakLegScore2 = calc(dipakSum2, sumleg2);
+var tusharLegScore2 = calc(tusharSum2, sumleg2);
+var arpanLegScore2 = calc(arpanSum2, sumleg2);
+var kantiLegScore2 = calc(kantiSum2, sumleg2);
+var deeptaLegScore2 = calc(deeptaSum2, sumleg2);
+var leg2 = [anikLegScore2, dipakLegScore2, tusharLegScore2, arpanLegScore2, 0, 0, 0, 0, kantiLegScore2, deeptaLegScore2];
+show(leg2, 30);
+
+var netscore = [Math.max(anikLegScore, anikLegScore2), Math.max(dipakLegScore, dipakLegScore2), Math.max(tusharLegScore, tusharLegScore2), Math.max(arpanLegScore, arpanLegScore2), faizanLegScore, priyanshuLegScore, divyankLegScore, harshLegScore, Math.max(kantiLegScore, kantiLegScore2), Math.max(deeptaLegScore, deeptaLegScore2)];
+show(netscore, 40);
+
 qual('#tj')
 qual('#sb')

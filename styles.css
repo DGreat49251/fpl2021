@@ -376,3 +376,10 @@ div#contact {
   box-shadow: 0.5vw 0.5vw 0.5vw #07305a;
   padding: 1vw;
 }
+
+.one-l, .two-l {
+  background: #fff !important;
+  color: #021a69 !important;
+  box-shadow: 0.5vw 0.5vw 0.5vw #07305a;
+  font-size: 1vw !important;
+}
