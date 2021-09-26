@@ -74,7 +74,7 @@ var tushar2 = [11, 3, 5, 10, 7, 14, 4, 14, 20, 16, 22]
 var arpan2 = [7, 2, 0, 6, 8, 20, 16, 10, 9, 5, 9]
 var kanti2 = [0, 22, 6, 16, 24, 6, 24, 8, 7, 9, 7]
 var divyank2 = []
-var deepta2 = [0, 17, 12, 10, 13, 9, 5, 0, -17]
+var deepta2 = []
 var harsh2 =[]
 var priyanshu2 = []
 var faizan2 =[]
@@ -89,7 +89,7 @@ var harshSum2 = sum(harsh2);
 var kantiSum2 = sum(kanti2);
 var divyankSum2 = sum(divyank2);
 var deeptaSum2 = sum(deepta2);
-var sumarr2 = [anikSum2, dipakSum2, tusharSum2, arpanSum2, "OPTED OUT", "DISQ.", "DISQ.", "DISQ.", kantiSum2, deeptaSum2];
+var sumarr2 = [anikSum2, dipakSum2, tusharSum2, arpanSum2, "OPTED OUT", "DISQ.", "DISQ.", "DISQ.", kantiSum2, "DISQ."];
 show(sumarr2, 10);
 place(anik2, '#ad', 28);
 place(dipak2, '#dg', 28);
@@ -123,11 +123,10 @@ var dipakLegScore2 = calc(dipakSum2, sumleg2);
 var tusharLegScore2 = calc(tusharSum2, sumleg2);
 var arpanLegScore2 = calc(arpanSum2, sumleg2);
 var kantiLegScore2 = calc(kantiSum2, sumleg2);
-var deeptaLegScore2 = calc(deeptaSum2, sumleg2);
-var leg2 = [anikLegScore2, dipakLegScore2, tusharLegScore2, arpanLegScore2, 0, 0, 0, 0, kantiLegScore2, deeptaLegScore2];
+var leg2 = [anikLegScore2, dipakLegScore2, tusharLegScore2, arpanLegScore2, 0, 0, 0, 0, kantiLegScore2, 0];
 show(leg2, 30);
 
-var netscore = [Math.max(anikLegScore, anikLegScore2), Math.max(dipakLegScore, dipakLegScore2), Math.max(tusharLegScore, tusharLegScore2), Math.max(arpanLegScore, arpanLegScore2), faizanLegScore, priyanshuLegScore, divyankLegScore, harshLegScore, Math.max(kantiLegScore, kantiLegScore2), Math.max(deeptaLegScore, deeptaLegScore2)];
+var netscore = [Math.max(anikLegScore, anikLegScore2), Math.max(dipakLegScore, dipakLegScore2), Math.max(tusharLegScore, tusharLegScore2), Math.max(arpanLegScore, arpanLegScore2), faizanLegScore, priyanshuLegScore, divyankLegScore, harshLegScore, Math.max(kantiLegScore, kantiLegScore2), deeptaLegScore];
 show(netscore, 40);
 
 qual('#tj')
