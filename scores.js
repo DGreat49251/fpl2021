@@ -34,7 +34,7 @@ function calc(n, d) {
     return Math.round(x);
 }
 
-var anik = [5 + 0 + 6, 0 + 3 + 5, 10 + 0 + 7, 5 + 0 + 8, 10 + 0 + 8, 5 + 0 + 7, 0 + 0 + 5, 5 + 3 + 4, -5 + 3 + 5, 2 + 3 + 6, 0 + 0 + 6, 5 + 0 + 6, 5 + 0 + 5, 10 + 0 + 5, -5 + 0 + 6, 10 + 3 + 7, 0 + 0 + 5, 0 + 0 + 5, -5 + 0 + 3, 5 + 0 + 6, -5 + 3 + 4, 0, -20, -20, 0, 0, 0, 0];
+var anik = [];
 var dipak = [2 + 0 + 6, 2 + 3 + 5, -3 + 3 + 5, 15 + 0 + 9, 0 + 3 + 7, 0 + 3 + 6, 5 + 0 + 6, -3 + 0 + 4, 0 + 3 + 5, 15 + 0 + 7, -3 + 0 + 5, 5 + 0 + 6, 0 + 0 + 4, -3 + 0 + 4, -1 + 3 + 6, 0 + 0 + 6, -1 + 0 + 5, 0 + 0 + 4, -3 + 0 + 4, -3 + 0 + 5, -1 + 0 + 4, 2 + 0 + 5, 0 + 0 + 5, 11, 4, 22, 8, 15];
 var tushar = [15 + 3 + 7, 5 + 0 + 6, -8 + 3 + 5, 10 + 0 + 8, 0 + 3 + 7, 10 + 3 + 7, -1 + 0 + 4, 2 + 0 + 4, 10 + 3 + 6, -3 + 3 + 6, 2 + 3 + 6, 10 + 0 + 7, -2 + 0 + 4, 0 + 0 + 5, 2 + 0 + 7, 5 + 3 + 6, 15 + 0 + 6, 15 + 0 + 5, 0 + 0 + 5, 0 + 0 + 6, -3 + 0 + 4, 5 + 5 + 3, -3 + 3 + 5, 4, 8, 11, 20, 12];
 var faizan = [-6 + 0 + 5, -1 + 0 + 4, 15 + 3 + 7, -5 + 3 + 6, 5 + 3 + 8, 0 + 0 + 6, 2 + 0 + 6, -1 + 3 + 4, 5 + 3 + 6, 0 + 0 + 6, -1 + 0 + 5, -3 + 3 + 6, 2 + 0 + 4, 2 + 0 + 5, 10 + 0 + 7, -3 + 3 + 4, 5 + 0 + 5, 5 + 0 + 5, 2 + 0 + 6, 15 + 0 + 6, 2 + 3 + 4, 8, 15 + 3 + 6, 6, 2, 8, 25, 7];
@@ -54,7 +54,7 @@ var kantiSum = sum(kanti);
 var priyanshuSum = sum(priyanshu);
 var divyankSum = sum(divyank);
 var deeptaSum = sum(deepta);
-var sumarr = [anikSum, dipakSum, tusharSum, arpanSum, faizanSum, priyanshuSum, divyankSum, harshSum, kantiSum, deeptaSum];
+var sumarr = ["DISQ.", dipakSum, tusharSum, arpanSum, faizanSum, priyanshuSum, divyankSum, harshSum, kantiSum, deeptaSum];
 show(sumarr, 0);
 place(anik, '#ad', 0);
 place(dipak, '#dg', 0);
@@ -68,11 +68,11 @@ place(divyank, '#dr', 0);
 place(deepta, '#dkd', 0);
 
 
-var anik2 = [20, 9, 15, 11, 10, 3, 13, 24, 14, 14, 11, 6, 20, 17, 24, 14, 18, 16, 24, 13, 23, 13, 11]
-var dipak2 = [25, 12, 20, 22, 18, 6, 10, 19, 9, 25, 16, 15, 9, 9, 10, 19, 18, 13, 19, 25, 18, 18, 17] 
-var tushar2 = [11, 3, 5, 10, 7, 14, 4, 14, 20, 16, 22, 21, 18, 6, 19, 24, 7, 23, 8, 16, 8, 23, 5]
-var arpan2 = [7, 2, 0, 6, 8, 20, 16, 10, 9, 5, 9, 0, 9, 9, 8, 9, 12, 6, 11, 9, 0, -20, -20]
-var kanti2 = [0, 22, 6, 16, 24, 6, 24, 8, 7, 9, 7, 10, 0, 22, 14, 0, 23, 0, -24, -24, 9, 6, 24]
+var anik2 = [20, 9, 15, 11, 10, 3, 13, 24, 14, 14, 11, 6, 20, 17, 24, 14, 18, 16, 24, 13, 23, 13, 11, 10]
+var dipak2 = [25, 12, 20, 22, 18, 6, 10, 19, 9, 25, 16, 15, 9, 9, 10, 19, 18, 13, 19, 25, 18, 18, 17, 16] 
+var tushar2 = [11, 3, 5, 10, 7, 14, 4, 14, 20, 16, 22, 21, 18, 6, 19, 24, 7, 23, 8, 16, 8, 23, 5, 21]
+var arpan2 = []
+var kanti2 = [0, 22, 6, 16, 24, 6, 24, 8, 7, 9, 7, 10, 0, 22, 14, 0, 23, 0, -24, -24, 9, 6, 24, 7]
 var divyank2 = []
 var deepta2 = []
 var harsh2 =[]
@@ -89,7 +89,7 @@ var harshSum2 = sum(harsh2);
 var kantiSum2 = sum(kanti2);
 var divyankSum2 = sum(divyank2);
 var deeptaSum2 = sum(deepta2);
-var sumarr2 = [anikSum2, dipakSum2, tusharSum2, arpanSum2, "OPTED OUT", "DISQ.", "DISQ.", "DISQ.", kantiSum2, "DISQ."];
+var sumarr2 = [anikSum2, dipakSum2, tusharSum2, "DISQ.", "OPTED OUT", "DISQ.", "DISQ.", "DISQ.", kantiSum2, "DISQ."];
 show(sumarr2, 10);
 place(anik2, '#ad', 28);
 place(dipak2, '#dg', 28);
