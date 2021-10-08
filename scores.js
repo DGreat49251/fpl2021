@@ -131,3 +131,5 @@ show(netscore, 40);
 
 qual('#tj')
 qual('#sb')
+qual('#ad')
+qual('#dg')
